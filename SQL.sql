@@ -1,3 +1,5 @@
 USE sucos;
 
-DELETE  FROM tbproduto WHERE produto='1078680';
+SELECT * FROM tabela_de_vendedores;
+
+DELETE FROM tabela_de_vendedores WHERE matricula='00233';
