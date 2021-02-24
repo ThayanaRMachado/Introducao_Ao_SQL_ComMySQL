@@ -1,13 +1,5 @@
 USE sucos;
 
-SELECT * FROM tbcliente;
+SELECT * FROM tabela_de_vendedores;
 
-SELECT * FROM tbcliente WHERE data_nascimento='1995-01-13';
-
-SELECT * FROM tbcliente WHERE data_nascimento>'1995-01-13';
-
-SELECT * FROM tbcliente WHERE data_nascimento <= '1995-01-13';
-
-SELECT * FROM tbcliente WHERE year(data_nascimento) = 1995;
-
-SELECT * FROM tbcliente WHERE month(data_nascimento) = 10;
+SELECT * FROM tabela_de_vendedores WHERE year(data_admissao) >= 2016;
