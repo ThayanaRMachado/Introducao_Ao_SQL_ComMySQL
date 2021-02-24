@@ -1,27 +1,5 @@
 USE sucos;
 
-SELECT * FROM tbcliente;
+SELECT * FROM tabela_de_vendedores;
 
-SELECT * FROM tbcliente WHERE idade=22;
-
-SELECT * FROM tbcliente WHERE idade>22;
-
-SELECT * FROM tbcliente WHERE idade<22;
-
-SELECT * FROM tbcliente WHERE idade <= 22;
-
-SELECT * FROM tbcliente WHERE idade <> 22;
-
-SELECT * FROM tbcliente WHERE nome>= 'Fernando Cavalcante';
-
-SELECT * FROM tbcliente WHERE nome <> 'Fernando Cavalcante';
-
-SELECT * FROM tbproduto;
-
-SELECT * FROM tbproduto WHERE preco_lista> 16.008;
-
-SELECT * FROM tbproduto WHERE preco_lista < 16.008;
-
-SELECT * FROM tbproduto WHERE preco_lista <> 16.008;
-
-SELECT * FROM tbproduto WHERE preco_lista BETWEEN 16.007 AND 16.009;
+SELECT * FROM tabela_de_vendedores WHERE percentual_comissao > 0.10;
