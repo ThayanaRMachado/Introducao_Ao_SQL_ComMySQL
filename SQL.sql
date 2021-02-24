@@ -1,9 +1,5 @@
 USE sucos;
 
-SELECT * FROM tbproduto WHERE PRODUTO = '544931';
+SELECT * FROM tabela_de_vendedores;
 
-SELECT * FROM tbcliente WHERE CIDADE = 'Rio de Janeiro';
-
-SELECT * FROM tbproduto WHERE SABOR = 'Cítricos';
-
-UPDATE tbproduto SET SABOR = 'Cítricos' WHERE SABOR = 'Limão';
+SELECT * FROM tabela_de_vendedores WHERE nome='Cláudia Morais';
